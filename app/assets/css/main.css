@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, monospace;
+  /* backgrounds of the logo tiles: the same in both themes, so a logo is always judged on the same colours */
+  --color-tile-dark: #11141b;
+  --color-tile-light: #eceef1;
+}
